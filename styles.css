@@ -20,6 +20,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 mark {
     background-color: transparent;
     color: unset;
@@ -1206,12 +1210,14 @@ a {
 
     .c-title{
         font-size: 26px;
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-bottom: 80px;
     }
 
     .c-container{
         flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
         gap: 20px;
     }
 
