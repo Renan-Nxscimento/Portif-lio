@@ -202,59 +202,19 @@ home.addEventListener ('click', () => {
 })
 
 tecnologies.addEventListener ('click', () => {
-    if (x.matches) {
-        window.scrollTo({
-            top: 794,
-            behavior: 'smooth'
-        })
-    } else {
-        window.scrollTo({
-            top: 1005,
-            behavior: 'smooth'
-        })
-    }
+    document.querySelector('.tecnologies-section').scrollIntoView()
 })
 
 about.addEventListener ('click', () => {
-    if (x.matches) {
-        window.scrollTo({
-            top: 1590,
-            behavior: 'smooth'
-        })
-    } else {
-        window.scrollTo({
-            top: 2010,
-            behavior: 'smooth'
-        })
-    }
+    document.querySelector('.about-section').scrollIntoView()
 })
 
 projects.addEventListener ('click', () => {
-    if (x.matches) {
-        window.scrollTo({
-            top: 2435,
-            behavior: 'smooth'
-        })
-    } else {
-        window.scrollTo({
-            top: 3015,
-            behavior: 'smooth'
-        })
-    }
+    document.querySelector('.projects-section').scrollIntoView()
 })
 
 contact.addEventListener ('click', () => {
-    if (x.matches) {
-        window.scrollTo({
-            top: 4020,
-            behavior: 'smooth'
-        })
-    } else {
-        window.scrollTo({
-            top: 5025,
-            behavior: 'smooth'
-        })
-    }
+    document.querySelector('.contact-section').scrollIntoView()
 })
 
 //Animações scroll
