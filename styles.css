@@ -1155,6 +1155,7 @@ a {
         width: 100px;
         height: 180px;
     }
+
     .tec span {
         font-size: 10px;
     }
@@ -1166,6 +1167,8 @@ a {
 
     .sides{
         padding: 0px 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     .left-side{
@@ -1173,9 +1176,9 @@ a {
     }
 
     .a-text{
-        width: 100%;
-        text-align: center;
+        width: 90%;
         font-size: 10px;
+        line-height: 18px;
     }
 
     .p-title{
