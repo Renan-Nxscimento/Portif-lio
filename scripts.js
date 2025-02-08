@@ -21,18 +21,18 @@ const linhaDoze = document.querySelector('.row-twelve')
 
 function ajustarTexto() {
     if (y.matches) {
-        linhaUm.innerText = 'Olá! Me chamo Renan e sou um'
-        linhaDois.innerText = 'desenvolvedor Front-End que'
-        linhaTres.innerText = 'preza por um design simples,'
-        linhaQuatro.innerText = 'intuitivo, funcional, e responsivo'
-        linhaCinco.innerText = 'no desenvolvimento de páginas web.'
-        linhaSeis.innerText = 'Tenho conhecimentos em Javascript,'
-        linhaSete.innerText = 'CSS 3 e HTML 5 que vem sendo'
-        linhaOito.innerText = ' estudados a mais de dois anos,'
-        linhaNove.innerText = ' buscando sempre incrementar o que foi aprendido. Busco conseguir'
-        linhaDez.innerText = 'um atendimento de excelência, entendendo necessidades e'
-        linhaOnze.innerText = 'preferências do cliente para'
-        linhaDoze.innerText = 'conseguir trabalhar da melhor'
+        linhaUm.innerHTML = 'Olá! Me chamo Renan e sou um'
+        linhaDois.innerHTML = 'desenvolvedor Front-End que'
+        linhaTres.innerHTML = 'preza por um design simples,'
+        linhaQuatro.innerHTML = 'intuitivo, funcional, e responsivo'
+        linhaCinco.innerHTML = 'no desenvolvimento de páginas web.'
+        linhaSeis.innerHTML = 'Tenho conhecimentos em Javascript,'
+        linhaSete.innerHTML = 'CSS 3 e HTML 5 que vem sendo'
+        linhaOito.innerHTML = ' estudados a mais de dois anos,'
+        linhaNove.innerHTML = ' buscando sempre incrementar o que foi aprendido. Busco conseguir'
+        linhaDez.innerHTML = 'um atendimento de excelência, entendendo necessidades e'
+        linhaOnze.innerHTML = 'preferências do cliente para'
+        linhaDoze.innerHTML = 'conseguir trabalhar da melhor'
         
         const newLine = document.createElement('span')
         newLine.classList.add('im-left', 'row-thirteen', 'hidden')
