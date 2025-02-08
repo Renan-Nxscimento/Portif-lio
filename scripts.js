@@ -176,7 +176,7 @@ home.addEventListener ('click', () => {
 tecnologies.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 794,
+            top: 744,
             behavior: 'smooth'
         })
     } else {
@@ -190,7 +190,7 @@ tecnologies.addEventListener ('click', () => {
 about.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 1640,
+            top: 1590,
             behavior: 'smooth'
         })
     } else {
@@ -204,7 +204,7 @@ about.addEventListener ('click', () => {
 projects.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 2475,
+            top: 2435,
             behavior: 'smooth'
         })
     } else {
@@ -218,7 +218,7 @@ projects.addEventListener ('click', () => {
 contact.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 4170,
+            top: 4120,
             behavior: 'smooth'
         })
     } else {
