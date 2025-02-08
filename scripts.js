@@ -176,7 +176,7 @@ home.addEventListener ('click', () => {
 tecnologies.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 744,
+            top: 794,
             behavior: 'smooth'
         })
     } else {
@@ -218,7 +218,7 @@ projects.addEventListener ('click', () => {
 contact.addEventListener ('click', () => {
     if (x.matches) {
         window.scrollTo({
-            top: 4120,
+            top: 4020,
             behavior: 'smooth'
         })
     } else {
