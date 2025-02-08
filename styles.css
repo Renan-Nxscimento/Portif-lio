@@ -1217,8 +1217,8 @@ a {
     .c-container{
         flex-direction: column;
         justify-content: space-between;
-        height: 70%;
-        gap: 20px;
+        height: 100%;
+        padding-bottom: 50px;
     }
 
     .c-item{
