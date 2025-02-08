@@ -1,22 +1,6 @@
 'use strict'
 
 
-//Animações scroll
-const myObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show')
-        }
-    })
-})
-
-const elementsLeft = document.querySelectorAll('.hidden')
-elementsLeft.forEach((elementL) => myObserver.observe(elementL))
-
-const elementsRight = document.querySelectorAll('.hidden-r')
-elementsRight.forEach((elementR) => myObserver.observe(elementR))
-
-
 //Alterar imagem dos projetos
 const mercBack = document.querySelector('.mercBack')
 const mercNext = document.querySelector('.mercNext')
@@ -157,6 +141,48 @@ function ajustarIcone() {
 ajustarIcone()
 
 
+
+//Ajustar texto
+const textArea = document.querySelector('.a-text')
+const linhaUm = document.querySelector('.row-one')
+const linhaDois = document.querySelector('.row-two')
+const linhaTres = document.querySelector('.row-three')
+const linhaQuatro = document.querySelector('.row-four')
+const linhaCinco = document.querySelector('.row-five')
+const linhaSeis = document.querySelector('.row-six')
+const linhaSete = document.querySelector('.row-seven')
+const linhaOito = document.querySelector('.row-eight')
+const linhaNove = document.querySelector('.row-nine')
+const linhaDez = document.querySelector('.row-ten')
+const linhaOnze = document.querySelector('.row-eleven')
+const linhaDoze = document.querySelector('.row-twelve')
+
+function ajustarTexto() {
+    if (y.matches) {
+        linhaUm.innerHTML = 'Olá! Me chamo Renan e sou um'
+        linhaDois.innerHTML = 'desenvolvedor Front-End que'
+        linhaTres.innerHTML = 'preza por um design simples,'
+        linhaQuatro.innerHTML = 'intuitivo, funcional, e responsivo'
+        linhaCinco.innerHTML = 'no desenvolvimento de páginas web.'
+        linhaSeis.innerHTML = 'Tenho conhecimentos em Javascript,'
+        linhaSete.innerHTML = 'CSS 3 e HTML 5 que vem sendo'
+        linhaOito.innerHTML = ' estudados a mais de dois anos,'
+        linhaNove.innerHTML = ' buscando sempre incrementar o que foi aprendido. Busco conseguir'
+        linhaDez.innerHTML = 'um atendimento de excelência, entendendo necessidades e'
+        linhaOnze.innerHTML = 'preferências do cliente para'
+        linhaDoze.innerHTML = 'conseguir trabalhar da melhor'
+        
+        const newLine = document.createElement('span')
+        newLine.classList.add('im-left', 'row-thirteen', 'hidden')
+        const newText = document.createTextNode('forma possível.')
+        newLine.appendChild(newText)
+        textArea.appendChild(newLine)
+    }
+}
+
+ajustarTexto()
+
+
 //Header 
 const home = document.getElementById('goHome')
 const tecnologies = document.getElementById('goTec')
@@ -226,3 +252,21 @@ contact.addEventListener ('click', () => {
         })
     }
 })
+
+
+
+//Animações scroll
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show')
+        }
+    })
+})
+
+const elementsLeft = document.querySelectorAll('.hidden')
+elementsLeft.forEach((elementL) => myObserver.observe(elementL))
+
+const elementsRight = document.querySelectorAll('.hidden-r')
+elementsRight.forEach((elementR) => myObserver.observe(elementR))
+
