@@ -1184,6 +1184,8 @@ a {
     .p-title{
         text-align: center;
         font-size: 32px;
+        margin-top: 50px;
+        padding-bottom: 80px;
     }
 
     .p-left{
