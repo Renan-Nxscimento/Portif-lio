@@ -1102,7 +1102,7 @@ a {
     .navbar{
         gap: 10px;
         width: 100%;
-        margin-left: 80px;
+        margin-left: 50px;
         justify-content: space-between;
     }
 
