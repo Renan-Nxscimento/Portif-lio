@@ -45,7 +45,7 @@ function ajustarTexto() {
     }
 }
 
-window.onload = ajustarTexto()
+window.addEventListener('load', ajustarTexto())
 
 
 
