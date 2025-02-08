@@ -1138,14 +1138,23 @@ a {
         display: none;
     }
 
+    .tecnologies-section {
+        padding-top: 0;
+    }
+
     .tecnologies-section h2{
         font-size: 20px;
     }
 
     .tecarea{
         margin-top: 80px;
+        width: 90%;
     }
 
+    .tec{
+        width: 100px;
+        height: 180px;
+    }
     .tec span {
         font-size: 10px;
     }
