@@ -1223,12 +1223,14 @@ a {
 
     .c-item{
         margin-bottom: 0;
+        padding: 10px;
+        padding-bottom: 15px;
         width: 90%;
     }
 
     .c-name{
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .footer-container{
