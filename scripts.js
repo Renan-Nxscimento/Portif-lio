@@ -45,7 +45,7 @@ function ajustarTexto() {
     }
 }
 
-ajustarTexto()
+window.onload = ajustarTexto()
 
 
 
