@@ -1,6 +1,17 @@
 'use strict'
 
 
+
+//Animações scroll
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show')
+        }
+    })
+})
+
+
 //Alterar imagem dos projetos
 const mercBack = document.querySelector('.mercBack')
 const mercNext = document.querySelector('.mercNext')
@@ -182,6 +193,12 @@ function ajustarTexto() {
 
 ajustarTexto()
 
+const elementsLeft = document.querySelectorAll('.hidden')
+elementsLeft.forEach((elementL) => myObserver.observe(elementL))
+
+const elementsRight = document.querySelectorAll('.hidden-r')
+elementsRight.forEach((elementR) => myObserver.observe(elementR))
+
 
 //Header 
 const home = document.getElementById('goHome')
@@ -252,20 +269,3 @@ contact.addEventListener ('click', () => {
         })
     }
 })
-
-
-
-//Animações scroll
-const myObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show')
-        }
-    })
-})
-
-const elementsLeft = document.querySelectorAll('.hidden')
-elementsLeft.forEach((elementL) => myObserver.observe(elementL))
-
-const elementsRight = document.querySelectorAll('.hidden-r')
-elementsRight.forEach((elementR) => myObserver.observe(elementR))
