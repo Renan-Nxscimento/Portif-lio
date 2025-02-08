@@ -269,4 +269,3 @@ elementsLeft.forEach((elementL) => myObserver.observe(elementL))
 
 const elementsRight = document.querySelectorAll('.hidden-r')
 elementsRight.forEach((elementR) => myObserver.observe(elementR))
-
