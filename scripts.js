@@ -1,50 +1,6 @@
 'use strict'
 
 
-//Header 
-const home = document.getElementById('goHome')
-const tecnologies = document.getElementById('goTec')
-const about = document.getElementById('goAbout')
-const projects = document.getElementById('goProject')
-const contact = document.getElementById('goContact')
-
-home.addEventListener ('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    })
-})
-
-tecnologies.addEventListener ('click', () => {
-    window.scrollTo({
-        top: 1005,
-        behavior: 'smooth'
-    })
-})
-
-about.addEventListener ('click', () => {
-    window.scrollTo({
-        top: 2010,
-        behavior: 'smooth'
-    })
-})
-
-projects.addEventListener ('click', () => {
-    window.scrollTo({
-        top: 3015,
-        behavior: 'smooth'
-    })
-})
-
-contact.addEventListener ('click', () => {
-    window.scrollTo({
-        top: 5025,
-        behavior: 'smooth'
-    })
-})
-
-
-
 //Animações scroll
 const myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -201,3 +157,74 @@ function ajustarIcone() {
 }
 
 ajustarIcone()
+
+
+//Header 
+const home = document.getElementById('goHome')
+const tecnologies = document.getElementById('goTec')
+const about = document.getElementById('goAbout')
+const projects = document.getElementById('goProject')
+const contact = document.getElementById('goContact')
+
+home.addEventListener ('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+
+tecnologies.addEventListener ('click', () => {
+    if (x.matches) {
+        window.scrollTo({
+            top: 844,
+            behavior: 'smooth'
+        })
+    } else {
+        window.scrollTo({
+            top: 1005,
+            behavior: 'smooth'
+        })
+    }
+})
+
+about.addEventListener ('click', () => {
+    if (x.matches) {
+        window.scrollTo({
+            top: 1690,
+            behavior: 'smooth'
+        })
+    } else {
+        window.scrollTo({
+            top: 2010,
+            behavior: 'smooth'
+        })
+    }
+})
+
+projects.addEventListener ('click', () => {
+    if (x.matches) {
+        window.scrollTo({
+            top: 2535,
+            behavior: 'smooth'
+        })
+    } else {
+        window.scrollTo({
+            top: 3015,
+            behavior: 'smooth'
+        })
+    }
+})
+
+contact.addEventListener ('click', () => {
+    if (x.matches) {
+        window.scrollTo({
+            top: 4220,
+            behavior: 'smooth'
+        })
+    } else {
+        window.scrollTo({
+            top: 5025,
+            behavior: 'smooth'
+        })
+    }
+})
