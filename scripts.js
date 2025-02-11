@@ -355,7 +355,7 @@ traduzir.addEventListener('click', () => {
             link.innerHTML = `Ver projeto`
         })
 
-        document.querySelector('.c-title span').innerHTML = "Enttre em contato"
+        document.querySelector('.c-title span').innerHTML = "Entre em contato"
 
         document.querySelector('.f-right span').innerHTML = "Desenvolvido por: Renan Nascimento"
 
