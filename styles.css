@@ -133,6 +133,56 @@ a {
     text-decoration: none;
 }
 
+.translate {
+    position: absolute;
+    top: 6vh;
+    right: 100px;
+    color: #f4ffff;
+    background-color: #431ea7;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    width: 80px;
+    cursor: pointer;
+    transition: .3s;
+    padding-right: 10px;
+}
+
+.translate:hover{
+    background-color: #762dff;
+}
+
+.language{
+    position: absolute;
+    left: 0;
+    background-color: #FFF;
+    color: #762dff;
+    height: 100%;
+    border-radius: 13px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 6px #FFF;
+    transition: .3s;
+}
+
+.language span{
+    transition: none;
+}
+
+.direita{
+    left: 40px;
+    transition: .3s;
+}
+
 .home {
     height: 95vh;
     max-width: 100%;
@@ -212,8 +262,8 @@ a {
     font-family: 'Miami';
     color: rgb(231, 0, 77);
     font-weight: lighter;
-    top: -35px;
-    left: 80px;
+    top: -75px;
+    left: 180px;
     width: fit-content;
     font-style: italic;
     text-align: left;
@@ -459,6 +509,7 @@ a {
 
 .white-text {
     text-shadow: 0px 0px 3px #000000, 0px 0px 6px #424242, 0px 0px 3px #bdbdbd;
+    line-height: 20px;
 }
 
 .t-html {
@@ -969,6 +1020,10 @@ a {
 
 @media(max-width: 1300px) {
 
+    .translate {
+        right: 66px;
+    }
+
     .main{
         width: 50%;
     }
@@ -979,7 +1034,8 @@ a {
     }
 
     .redline{
-        top: -28px;
+        top: -55px;
+        left: 140px;
         font-size: 48px;
     }
 
@@ -1028,13 +1084,18 @@ a {
         font-size: 10px;
     }
 
+    .translate {
+        right: 55px;
+    }
+
     .heavy {
         width: fit-content;
         font-size: 38px;
     }
 
     .redline{
-        top: -22px;
+        top: -46px;
+        left: 105px;
         font-size: 38px;
         text-shadow: 0px 0px 3px rgb(255, 176, 176), 0px 0px 5px rgb(255, 169, 181), 0px 0px 6px rgb(255, 125, 244), 0px 0px 5px rgb(231, 0, 77), 0px 0px 6px rgb(89, 27, 95), 0px 0px 6px rgb(89, 27, 95);
     }
@@ -1119,6 +1180,10 @@ a {
         display: none;
     }
 
+    .translate {
+        right: 10px;
+    }
+
     .main{
         width: 70%;
     }
@@ -1128,9 +1193,9 @@ a {
     }
 
     .redline{
-        font-size: 28px;
-        left: 36px;
-        top: -16px;
+        font-size: 30px;
+        left: 64px;
+        top: -37px;
     }
 
     .m-text{
