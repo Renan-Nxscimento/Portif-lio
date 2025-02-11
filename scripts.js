@@ -294,7 +294,7 @@ traduzir.addEventListener('click', () => {
             linhaOnze.innerHTML = 'excellence work. Understanding';
             linhaDoze.innerHTML = 'needs and preferences of the';
         
-        document.querySelector('.row-thirteen').innerHTML = "customer, to deliver my services in the best way possible."
+            document.querySelector('.row-thirteen').innerHTML = "customer, to deliver my services in the best way possible."
     }
     }
     else if (idiomaTxt.innerHTML === 'ENG') {
@@ -358,6 +358,23 @@ traduzir.addEventListener('click', () => {
         document.querySelector('.c-title span').innerHTML = "Enttre em contato"
 
         document.querySelector('.f-right span').innerHTML = "Desenvolvido por: Renan Nascimento"
+
+        if (y.matches) {
+            linhaUm.innerHTML = 'Olá! Me chamo Renan e sou um';
+            linhaDois.innerHTML = 'desenvolvedor Front-End que';
+            linhaTres.innerHTML = 'preza por um design simples,';
+            linhaQuatro.innerHTML = 'intuitivo, funcional, e responsivo';
+            linhaCinco.innerHTML = 'no desenvolvimento de páginas web.';
+            linhaSeis.innerHTML = 'Tenho conhecimentos em Javascript,';
+            linhaSete.innerHTML = 'CSS 3 e HTML 5 que vem sendo';
+            linhaOito.innerHTML = ' estudados a mais de dois anos,';
+            linhaNove.innerHTML = ' buscando sempre incrementar o que foi aprendido. Busco conseguir';
+            linhaDez.innerHTML = 'um atendimento de excelência, entendendo necessidades e';
+            linhaOnze.innerHTML = 'preferências do cliente para';
+            linhaDoze.innerHTML = 'conseguir trabalhar da melhor';
+        
+            document.querySelector('.row-thirteen').innerHTML = "forma possível."
+    }
 
         animation()
     }
